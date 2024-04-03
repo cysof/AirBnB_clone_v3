@@ -62,7 +62,7 @@ def create_city(states_id):
     """ Creates a city from states_id """
     state = storage.get(State, states_id)
     if state is None:
-        raise NotFound
+        raise NotFound()
     data = request.get_json()
     if not data:
         raise BadRequest(description='Missing JSON')
@@ -86,5 +86,6 @@ def update_city(city_id):
     for key, val in data.items():
         if key not in ['id', 'state_id', 'created_at', 'updated_at']:
             setattr(city, key, val)
+    city.save()
     storage.save()
     return jsonify(city.to_dict())
