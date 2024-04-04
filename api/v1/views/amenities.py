@@ -58,11 +58,11 @@ def remove_amenity(amenity_id):
     return jsonify({})
 
 
-def add_amenity(amenity_id):
+def add_amenity():
     """ Create a new amenity object """
-    amenity = storage.get(Amenity, amenity_id)
-    if amenity is None:
-        raise NotFound()
+    # amenity = storage.get(Amenity, amenity_id)
+    # if amenity is None:
+    #     raise NotFound()
     data = request.get_json()
     if not data:
         raise BadRequest(description='Missing JSON')
@@ -70,7 +70,7 @@ def add_amenity(amenity_id):
         raise BadRequest(description='Missing name')
 
     new_amenity = Amenity(**data)
-    new_amenity.amenity_id = amenity_id
+    # new_amenity.amenity_id = amenity_id
     new_amenity.save()
     return jsonify(new_amenity.to_dict()), 201
 
