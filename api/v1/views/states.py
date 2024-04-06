@@ -10,6 +10,7 @@ from models import storage
 ALLOWED_METHODS = ['GET', 'DELETE', 'POST', 'PUT']
 """Methods allowed for the states endpoints"""
 
+
 @app_views.route('/states', methods=ALLOWED_METHODS)
 @app_views.route('/states/<state_id>', methods=ALLOWED_METHODS)
 def handle_states(state_id=None):

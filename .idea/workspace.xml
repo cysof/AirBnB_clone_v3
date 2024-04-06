@@ -5,16 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58939add-3d65-43ad-9b3d-1e337c3b9d55" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/v1/views/places.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/v1/views/places_amenities.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/v1/views/places_reviews.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/v1/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/v1/views/amenities.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/views/amenities.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/v1/views/cities.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/views/cities.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/v1/views/states.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/views/states.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/v1/views/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/views/users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/base_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/base_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/user.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,6 +55,11 @@
     &quot;last_opened_file_path&quot;: &quot;/home/cysoft/Desktop/AirBnB_clone_v3&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api/v1/views" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AirBnB_clone_v3" />
